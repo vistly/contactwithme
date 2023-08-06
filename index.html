@@ -2,7 +2,6 @@
 <html>
 <head>
     <title>Мой сайт</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
             background-color: #331D2C;
@@ -37,6 +36,26 @@
             li {
                 display: inline-block;
                 margin: 10px;
+            }
+        }
+
+        /* Стили для версии на ПК */
+        @media (min-width: 481px) {
+            ul {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            li {
+                display: block;
+                text-align: center;
+                zoom: 1.4; /* Приближение на 150% */
+            }
+            h1 {
+                display: block;
+                text-align: center;
+                zoom: 1.4; /* Приближение на 150% */
             }
         }
     </style>
