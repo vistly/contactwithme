@@ -25,6 +25,7 @@
 
         h1 {
             color: #A78295;
+            text-align: center; /* Центрирование текста по горизонтали */
         }
 
         /* Адаптация для телефона */
@@ -34,16 +35,17 @@
             }
 
             li {
-                display: inline-block;
+                display: block; /* Размещаем кнопки в столбец */
                 margin: 10px;
-                zoom: 1.1;
+                zoom: 1.1; /* Приближение на 110% */
             }
-        }
             h1 {
                 display: block;
                 text-align: center;
-                zoom: 1.1; /* Приближение на 150% */
+                zoom: 1.1; /* Приближение на 110% */
             }
+        }
+
         /* Стили для версии на ПК */
         @media (min-width: 481px) {
             ul {
@@ -55,12 +57,13 @@
             li {
                 display: block;
                 text-align: center;
-                zoom: 1.4;
+                zoom: 1.4; /* Приближение на 140% */
             }
+
             h1 {
                 display: block;
                 text-align: center;
-                zoom: 1.4; /* Приближение на 150% */
+                zoom: 1.4; /* Приближение на 140% */
             }
         }
     </style>
