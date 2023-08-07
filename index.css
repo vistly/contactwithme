@@ -1,0 +1,348 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: var(--dl-color-gray-700);
+}
+.home-container1 {
+  top: -22px;
+  left: -11px;
+  width: 829px;
+  height: 912px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: var(--dl-color-gray-500);
+}
+.home-text {
+  top: -5px;
+  right: -1px;
+  width: 633px;
+  height: 191px;
+  position: absolute;
+  font-size: 4em;
+  padding-top: var(--dl-space-space-fourunits);
+}
+.home-link {
+  top: 227px;
+  left: 52px;
+  color: var(--dl-color-gray-900);
+  position: absolute;
+  font-size: 57px;
+  border-color: var(--dl-color-gray-500);
+  border-width: 1px;
+  text-decoration: none;
+  background-color: var(--dl-color-gray-500);
+}
+.home-link1 {
+  top: 349px;
+  left: 43px;
+  color: var(--dl-color-gray-900);
+  position: absolute;
+  font-size: 57px;
+  border-color: var(--dl-color-gray-500);
+  border-width: 1px;
+  text-decoration: none;
+  background-color: var(--dl-color-gray-500);
+}
+.home-link2 {
+  top: -37px;
+  left: 10px;
+  color: var(--dl-color-gray-900);
+  position: absolute;
+  font-size: 57px;
+  border-color: var(--dl-color-gray-500);
+  border-width: 1px;
+  text-decoration: none;
+  background-color: var(--dl-color-gray-500);
+}
+.home-text01 {
+  top: 485px;
+  left: 45px;
+  position: absolute;
+  border-color: var(--dl-color-gray-500);
+  border-width: 1px;
+}
+.home-link3 {
+  top: 637px;
+  left: 42px;
+  color: var(--dl-color-gray-900);
+  position: absolute;
+  font-size: 57px;
+  border-color: var(--dl-color-gray-500);
+  border-width: 1px;
+  text-decoration: none;
+  background-color: var(--dl-color-gray-500);
+}
+.home-link4 {
+  top: 761px;
+  left: 49px;
+  color: var(--dl-color-gray-900);
+  position: absolute;
+  font-size: 57px;
+  border-color: var(--dl-color-gray-500);
+  border-width: 1px;
+  text-decoration: none;
+  background-color: var(--dl-color-gray-500);
+}
+.home-heading {
+  top: -39px;
+  right: 113px;
+  width: 407px;
+  height: 191px;
+  position: absolute;
+  font-size: 4em;
+  padding-top: var(--dl-space-space-fourunits);
+}
+.home-text08 {
+  top: 290px;
+  left: 1055px;
+  color: var(--dl-color-gray-black);
+  position: absolute;
+  font-size: 57px;
+}
+.home-text09 {
+  top: 171px;
+  left: 1052px;
+  color: var(--dl-color-gray-black);
+  position: absolute;
+  font-size: 57px;
+}
+.home-text10 {
+  top: 614px;
+  color: var(--dl-color-gray-black);
+  right: 111px;
+  position: absolute;
+  font-size: 57px;
+}
+.home-text18 {
+  top: 422px;
+  color: var(--dl-color-gray-black);
+  right: 102px;
+  position: absolute;
+  font-size: 57px;
+}
+@media(max-width: 1200px) {
+  .home-container1 {
+    top: -4px;
+    left: -2px;
+    width: 581px;
+    height: 1003px;
+  }
+  .home-text {
+    top: -2px;
+    right: -107px;
+    font-size: 4em;
+  }
+  .home-link2 {
+    top: -34px;
+    left: 11px;
+    color: var(--dl-color-gray-900);
+    font-size: 57px;
+    background-color: var(--dl-color-gray-500);
+  }
+  .home-link3 {
+    top: 602px;
+    right: -38px;
+    border-width: 0px;
+    background-color: transparent;
+  }
+  .home-link4 {
+    right: -52px;
+    bottom: 35px;
+    border-width: 0px;
+    background-color: transparent;
+  }
+  .home-heading {
+    top: -18px;
+    right: 92px;
+  }
+  .home-text08 {
+    top: 310px;
+    left: 720px;
+    position: absolute;
+  }
+  .home-text09 {
+    top: 158px;
+    left: 720px;
+    position: absolute;
+  }
+  .home-text10 {
+    right: 47px;
+    bottom: 46px;
+  }
+  .home-text18 {
+    top: 460px;
+    right: 25px;
+  }
+}
+@media(max-width: 991px) {
+  .home-container1 {
+    width: 504px;
+  }
+  .home-text {
+    top: 3px;
+    right: -39px;
+    width: 503px;
+    height: 190px;
+  }
+  .home-link3 {
+    color: var(--dl-color-gray-900);
+    font-size: 50px;
+  }
+  .home-link4 {
+    right: -62px;
+    bottom: 91px;
+    font-size: 50px;
+  }
+  .home-heading {
+    top: -2px;
+    right: -24px;
+  }
+  .home-text08 {
+    top: 379px;
+    right: 30px;
+    margin: auto;
+    font-size: 50px;
+  }
+  .home-text09 {
+    top: 222px;
+    right: 135px;
+    font-size: 50px;
+  }
+  .home-text10 {
+    right: 41px;
+    bottom: 43px;
+    position: absolute;
+    font-size: 45px;
+  }
+  .home-text18 {
+    top: 572px;
+    right: 27px;
+    position: absolute;
+    font-size: 45px;
+  }
+}
+@media(max-width: 767px) {
+  .home-container1 {
+    width: 332px;
+  }
+  .home-text {
+    top: 5px;
+    left: -152px;
+  }
+  .home-heading {
+    top: 0px;
+    right: -482px;
+  }
+  .home-text10 {
+    right: -420px;
+    bottom: 103px;
+  }
+  .home-text18 {
+    top: 498px;
+    right: -444px;
+  }
+}
+@media(max-width: 479px) {
+  .home-container1 {
+    top: -12px;
+    right: -8px;
+    width: 479px;
+    height: 512px;
+    position: absolute;
+    padding-right: 4px;
+  }
+  .home-text {
+    top: 28px;
+    left: 138px;
+    width: 285px;
+    height: 115px;
+    position: absolute;
+    font-size: 3em;
+    align-self: flex-start;
+    padding-top: var(--dl-space-space-oneandhalfunits);
+  }
+  .home-link {
+    top: 239px;
+    left: 116px;
+    position: absolute;
+    font-size: 35px;
+    line-height: 2;
+  }
+  .home-link1 {
+    top: 189px;
+    left: 43px;
+    position: static;
+    font-size: 35px;
+    line-height: 2;
+  }
+  .home-link2 {
+    top: 170px;
+    left: 119px;
+    position: absolute;
+    font-size: 35px;
+    line-height: 2;
+    background-color: transparent;
+  }
+  .home-text01 {
+    left: 65px;
+    bottom: 82px;
+    position: static;
+    font-size: 35px;
+    line-height: 2;
+    background-color: transparent;
+  }
+  .home-link3 {
+    top: 322px;
+    left: 16px;
+    position: static;
+    font-size: 35px;
+    line-height: 2;
+  }
+  .home-link4 {
+    left: -4px;
+    bottom: 27px;
+    position: static;
+    font-size: 35px;
+    align-self: center;
+    line-height: 2;
+  }
+  .home-heading {
+    right: -427px;
+    width: 205px;
+    bottom: 204px;
+    height: 206px;
+    position: absolute;
+    font-size: 3em;
+    padding-top: 342px;
+    padding-bottom: 0px;
+  }
+  .home-text08 {
+    top: 566px;
+    left: 25px;
+    position: absolute;
+    line-height: 2;
+  }
+  .home-text09 {
+    top: 530px;
+    left: 31px;
+    position: absolute;
+    line-height: 1;
+  }
+  .home-text10 {
+    position: static;
+  }
+  .home-text18 {
+    left: 10px;
+    bottom: 20px;
+    position: static;
+    line-height: 1.5;
+  }
+}
